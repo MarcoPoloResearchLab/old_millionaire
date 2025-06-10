@@ -1,14 +1,17 @@
-# Old Millionaire
+# Old Millionaire Calculator
 
-A simple, zero-dependency static web page that tells you how much money you’d need **today** to match the purchasing power of \$1,000,000 in your birth year.
+A simple, zero-dependency static web page that tells you how much money you’d need **today** to match the purchasing
+power of \$1,000,000 in your birth year.
 
-![Millionaire at Birth Screenshot](screenshot.png)
+![Millionaire Screenshot](screenshot.png)
 
 ## Features
 
-- **Fixed 10-Column Grid**: A non-responsive year grid shows decades (0–9) in perfectly aligned rows, regardless of screen size.
+- **Fixed 10-Column Grid**: A non-responsive year grid shows decades (0–9) in perfectly aligned rows, regardless of
+  screen size.
 - **Instant Calculation**: Click a year, and the answer appears immediately—no page reload.
-- **Zero Dependencies**: All CPI data and styling are bundled in a single HTML file. No external libraries, frameworks, or API calls.
+- **Zero Dependencies**: All CPI data and styling are bundled in a single HTML file. No external libraries, frameworks,
+  or API calls.
 - **Custom CSS UI**: A clean, modern card layout styled with self-contained CSS.
 - **Visual Cues**:
     - Buttons for years ending in “5” get a pale-pink background.
@@ -31,13 +34,15 @@ A simple, zero-dependency static web page that tells you how much money you’d 
 To update the data:
 
 1. Edit the `cpiData` object in the `<script>` section of `index.html`.
-2. Add or adjust the year→CPI mappings as published by BLS. The grid will automatically update to reflect the range of years present in the data.
+2. Add or adjust the year→CPI mappings as published by BLS. The grid will automatically update to reflect the range of
+   years present in the data.
 
 ## Customization
 
 - **Adjust styling**: Modify the CSS rules in the `<style>` block of `index.html`.
 - **Change highlight years**: Tweak the `.year-btn[data-year$="5"]` selector in the CSS.
-- **Extend year range**: Add new key-value pairs to the `cpiData` object in the script. The grid generation is dynamic and will adapt.
+- **Extend year range**: Add new key-value pairs to the `cpiData` object in the script. The grid generation is dynamic
+  and will adapt.
 
 ## License
 
