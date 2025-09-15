@@ -46,5 +46,4 @@ To update the data:
 
 ## License
 
-This project is released under the MIT License.
-Feel free to fork, modify, and redistribute.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
